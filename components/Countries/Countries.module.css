@@ -1,0 +1,58 @@
+.container {
+  padding: 0 3.2rem;
+  display: flex;
+  flex-direction: column;
+  gap: 0;
+  gap: 2.4rem;
+}
+.container .searchContainer {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+.container .searchContainer .searchInput {
+  background-color: var(--color-background) !important;
+  width: 100%;
+}
+.container .card {
+  width: 100%;
+}
+.container .card .cardHeader {
+  display: flex;
+  align-items: center;
+  gap: 1.6rem;
+  padding: 1rem 0;
+  border-bottom: 1px solid rgba(255, 255, 255, 0.1);
+}
+.container .card .cardHeader img.flag {
+  width: 20rem;
+  height: 4rem;
+  height: auto;
+  border-radius: 4px;
+}
+.container .card .cardHeader h3 {
+  margin: 0;
+  font-size: 1.2rem;
+  color: var(--color-text-primary);
+}
+.container .card .cardBody {
+  padding-top: 1rem;
+}
+.container .card .cardBody .infoGrid .infoItem {
+  margin-bottom: 0.8rem;
+}
+.container .card .cardBody p {
+  margin: 0.5rem 0;
+  font-size: 0.95rem;
+  color: var(--color-textSecondary, #555);
+}
+.container .card .cardBody p strong {
+  color: var(--color-text, #333);
+}
+
+@media (max-width: 768px) {
+  .container {
+    padding: 0 1.6rem 2.4rem;
+    gap: 1.6rem;
+  }
+}/*# sourceMappingURL=Countries.module.css.map */

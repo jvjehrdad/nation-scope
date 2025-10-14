@@ -1,0 +1,25 @@
+.container {
+  display: flex;
+  flex-direction: column;
+  padding: 0 4.4rem 2.4rem;
+  gap: 2.4rem;
+}
+.container .chartContainer {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 2.4rem;
+}
+
+@media screen and (max-width: 1200px) {
+  .container {
+    padding: 0 1.6rem 1.6rem;
+  }
+  .container .chartContainer {
+    grid-template-columns: repeat(1, 1fr);
+  }
+}
+@media screen and (max-width: 992px) {
+  .container .chartContainer {
+    gap: 0.8rem;
+  }
+}/*# sourceMappingURL=Dashboard.module.css.map */

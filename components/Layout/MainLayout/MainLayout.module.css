@@ -1,0 +1,69 @@
+.container {
+  position: relative;
+}
+.container .sider {
+  height: 100vh;
+  position: fixed;
+  left: 0;
+  padding: 4.4rem 1.6rem 3.2rem;
+  background: var(--color-background) !important;
+  box-shadow: 8px 0px 20px 0px rgba(16, 16, 16, 0.9);
+  z-index: 1;
+}
+.container .header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 100%;
+  padding: 6.4rem 4rem !important;
+}
+.container .headerTitle {
+  font-size: 3rem;
+  font-weight: 600;
+  margin: 0;
+}
+.container .mainLayout {
+  margin-left: 25rem;
+}
+.container .mobileMenuButton {
+  padding: 0 !important;
+}
+
+.mobileMainLayout {
+  margin-left: 0;
+}
+
+.logoContainer {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.logoContainer .logo {
+  width: 80%;
+  height: 4.8rem;
+  margin-bottom: 3.2rem;
+}
+
+@media screen and (max-width: 992px) {
+  .container .sider {
+    padding: 4.4rem 0rem 3.2rem;
+  }
+  .container .mainLayout {
+    margin-left: 4rem;
+  }
+  .container .header {
+    padding: 1.6rem !important;
+  }
+  .logoContainer {
+    width: 100%;
+    justify-content: start;
+    padding: 1.6rem;
+  }
+  .logoContainer .logo {
+    width: -moz-fit-content;
+    width: fit-content;
+    height: 4.8rem;
+    margin-bottom: unset;
+  }
+}/*# sourceMappingURL=MainLayout.module.css.map */
